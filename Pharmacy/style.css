@@ -1,0 +1,294 @@
+body{
+	background: #777;
+	color: white;
+	font-family: 'Lato', sans-serif;
+}
+
+								/* index.php */
+
+.logo{
+	background: #3BA657;
+	padding: 30px;
+	text-align: center;
+	font-size: 40px;
+	margin-left: 0;
+}
+
+.logo i
+{
+	font-size:60px;
+	color: white;
+}
+
+.logo i:hover
+{
+	color: #dd4132;
+}
+
+.mainLink
+{
+	text-decoration: none;
+	color: white;
+}
+
+.article{
+	background: #555;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+.article h2{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 8px;
+}
+
+.article p{
+	font-size: 12px;
+	text-align: justify;
+}
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	padding: 0;
+	min-height: 550px;
+}
+
+.content{
+	float: left;
+	width: 450px;
+	padding: 10px;
+}
+
+.user{
+	float: left;
+	width: 450px;
+	padding: 10px;
+}
+
+.user h2{
+	font-size: 30px;
+	margin-top: 5px;
+}
+
+.user p{
+	font-size: 18px;
+	text-align: justify;
+	margin-bottom: 20;
+}
+
+.registration{
+	background-color: #555;
+	padding: 10px 10px 40px;
+	margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.button{
+	background-color: #ffa111;
+	padding: 10px 60px;
+	text-decoration: none;
+	border-radius: 5px;
+	color: white;
+	letter-spacing: 1px;
+	font-size: 24px;
+	width: 300px;
+}
+
+.registrationButton:hover{
+	background-color: #ffb222;
+}
+
+.login{
+	background-color: #555;
+	text-align: center;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+input[type=text],
+input[type=password]{
+	width: 300px;
+	background-color: #efefef;
+	color: #666666;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 10px;
+}
+
+input[type=submit]{
+	width: 300px;
+	padding: 10px;
+	font-size: 20px;
+	margin-top: 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+	background-color: #ffa111;
+	color: white;
+}
+
+.loginError{
+	color: red;
+	font-size: 20px;
+	padding: 20px;
+}
+.rights{
+	background-color: #555;
+	text-align: center;
+	font-size: 24px;
+	clear: both;
+	padding: 15px;
+	margin-top: 10px 0;
+}
+								/* registration.php */
+.registrationWindow{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	padding: 0;
+	text-align: center;
+	padding: 20px;
+	height: 650px;
+}
+
+.registrationWindow h2{
+	font-size: 40px;
+}
+
+.registrationWindow p{
+	font-size: 15px;
+}
+
+.description{
+	width: 300px;
+	float:left;
+	text-align: center;
+	padding: 20px;
+	margin-top: 3px;
+}
+
+.description h3{
+	font-size: 25px;
+	margin-bottom: 27px;
+}
+
+.form{
+	width: 300px;
+	background-color: #555;
+	float:left;
+	text-align: center;
+	padding: 20px;
+	margin: 10px;
+}
+
+input[type=checkbox]{
+	margin-top: 20px;
+	width: 30px;
+	height: 30px;
+}
+
+.registrationError{
+	margin-top: 20px;
+	float:left;
+	width: 300px;
+	text-align: center;
+}
+
+.note{
+	color: red;
+	margin-top: 37px;
+	font-size: 15px;
+	min-height: 20px;
+}
+
+								/* welcome.php */
+
+.welcome{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 20px;
+	
+}
+
+								/* patient.php */
+								
+								
+.interface{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.greeting{
+	text-align: justify;
+	padding: 20px;
+}
+
+.greeting h3{
+	font-size: 20px;
+}
+
+.option{
+	text-align: center;
+	padding: 10px;
+	margin: 5px 5px 15px;
+	float: left;
+	width: 300px;
+	letter-spacing: 2px;
+	font-size: 24px;
+	background-color: #ffa111;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+								/* history.php status.php */
+								
+.table{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}	
+
+.table p{
+	font-size: 25px;
+}
+
+.resultTable{
+	margin: 25px;
+	text-align: center;
+	border: 5px solid #ffa111;
+}
+
+.return{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.column{
+	width: 175px;
+	background-color: #555;
+	font-size: 20px;
+	border: 1px solid #ffa111;
+}
+
+.row{
+	width: 175px;
+	font-size: 15px;
+	border: 1px solid #ffa111;
+}
