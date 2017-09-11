@@ -53,7 +53,7 @@
 	
 		<div class ="welcome">
 		
-			<h2>Rejestracja przebiegła pomyslnie. witamy w seriwise. Kliknij, poniżej aby powrócić do strony głównej i się zalogować</h2>
+			<h2>Rejestracja przebiegła pomyślnie. Witamy w seriwise. Kliknij, poniżej aby powrócić do strony głównej i się zalogować</h2>
 		
 			<a href="index.php" class="button">Przejście do strony głównej</a>
 		

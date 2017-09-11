@@ -1,0 +1,1 @@
+alert ("Wprowadzono receptę do bazy");

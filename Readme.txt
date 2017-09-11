@@ -5,3 +5,5 @@ Apteka to portal dla pacjentów, którzy mog¹ sprawdziæ historiê leczenia i status
 - logowanie do portalu,
 - sprawdzanie historii leczenia (zrealizowane recepty),
 - sprawdzanie statusu wystawionych recept (niezrealizowane recepty),
+- logowanie do panelu lekarskiego,
+- wystawianie recept dla pacjentów,

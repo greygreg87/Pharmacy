@@ -33,13 +33,13 @@ body{
 
 .article{
 	background: #555;
-	padding: 10px;
+	padding: 15px;
 	margin: 10px;
 	border-radius: 5px;
 }
 
 .article h2{
-	font-size: 20px;
+	font-size: 23px;
 	text-align: center;
 	margin-top: 8px;
 }
@@ -59,13 +59,13 @@ body{
 
 .content{
 	float: left;
-	width: 450px;
+	width: 480px;
 	padding: 10px;
 }
 
 .user{
 	float: left;
-	width: 450px;
+	width: 480px;
 	padding: 10px;
 }
 
@@ -101,20 +101,32 @@ body{
 	width: 300px;
 }
 
-.registrationButton:hover{
+/*.registrationButton:hover{
 	background-color: #ffb222;
-}
+}*/
 
 .login{
 	background-color: #555;
 	text-align: center;
 	border-radius: 5px;
-	padding: 10px;
+	padding: 12px;
 	margin-bottom: 20px;
 }
 
+.login h2{
+	margin-bottom: 5px;
+}
+
+.login p{
+	margin: 0px;
+	color: #333;
+	font-size: 17px;
+	text-align: center;
+}
+
 input[type=text],
-input[type=password]{
+input[type=password],
+input[type=date]{
 	width: 300px;
 	background-color: #efefef;
 	color: #666666;
@@ -153,6 +165,23 @@ input[type=submit]{
 	clear: both;
 	padding: 15px;
 	margin-top: 10px 0;
+}
+
+.doctorPanel{
+	clear: both;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.doctorLink{
+	background-color: #555;
+	padding: 10px 60px;
+	text-decoration: none;
+	border-radius: 5px;
+	color: white;
+	letter-spacing: 2px;
+	font-size: 18px;
+	width: 300px;
 }
 								/* registration.php */
 .registrationWindow{
@@ -291,4 +320,31 @@ input[type=checkbox]{
 	width: 175px;
 	font-size: 15px;
 	border: 1px solid #ffa111;
+}
+
+									/* doctorLogin.php doctor.php */						
+									
+.doctorPanel{
+	width: 500px;
+	background-color: #555;
+	text-align: center;
+	border-radius: 5px;
+	padding: 20px;
+	margin: 20px auto;
+}
+
+.doctorLogout{
+	margin:30px;
+	text-align: center;
+}
+
+.doctorPanel h2{
+	margin-bottom: 5px;
+}
+
+.doctorPanel p{
+	margin: 0px;
+	color: #333;
+	font-size: 17px;
+	text-align: center;
 }

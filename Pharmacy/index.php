@@ -8,6 +8,8 @@
 		exit();
 	}
 
+	if(isset($_SESSION['bladLekarz'])) unset($_SESSION['bladLekarz']);
+	
 ?>
 
 <!DOCTYPE HTML>
@@ -49,7 +51,7 @@
 				<section>
 					<div class="registration"><h2>Rejestracja w systemie</h2><p>Wykonujac rejestracje otrzymujesz zdalny, darmowy dostęp do wystawionych dla Ciebie recept. Znajomość historii leczenia, jak i statusu recept to Twoje prawo.</p></br><a href="registration.php" class="button">Zarejestruj się</a></div>
 					
-					<div class="login"><h2>Logowanie do systemu</h2>
+					<div class="login"><h2>Logowanie do systemu</h2><p>Przykładowe dane: pesel - 10011001000 hasło - qwerty</p>
 					
 						<form action="login.php" method="post">
 	
@@ -75,6 +77,8 @@
 			</div>
 		
 		</div>
+		
+		<div class= "doctorPanel"><a href="doctorlogin.php" class="doctorLink">Przejdź do sekcji lekarskiej</a></div>
 	
 	</main>
 	
